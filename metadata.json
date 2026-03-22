@@ -1,0 +1,5 @@
+{
+  "name": "Rancher Turtles: CAPI-to-ClusterClass Converter",
+  "description": "A standardized tool to transform raw Cluster API (CAPI) YAML into ClusterClass resources for Rancher Turtles management.",
+  "requestFramePermissions": []
+}
