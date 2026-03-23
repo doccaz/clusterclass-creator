@@ -412,6 +412,18 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#141e26] text-zinc-100 font-sans selection:bg-blue-500/30 flex flex-col">
+      {/* GitHub Ribbon */}
+      <div className="fixed top-0 right-0 w-32 h-32 overflow-hidden pointer-events-none z-[100]">
+        <a
+          href="https://github.com/doccaz/clusterclass-creator"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute top-0 right-0 block w-[150%] py-1.5 bg-[#0075a8] text-white text-[10px] font-bold text-center transform translate-x-[30%] translate-y-[40%] rotate-45 pointer-events-auto shadow-lg hover:bg-[#005a82] transition-colors border-y border-white/10 tracking-widest"
+        >
+          FORK ME ON GITHUB
+        </a>
+      </div>
+
       {/* Header */}
       <header className="border-b border-zinc-800 bg-[#1c2a35] backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
